@@ -1,0 +1,28 @@
+{
+  "name": "Friend_Finder",
+  "version": "1.0.0",
+  "description": "### Overview",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryanrkelley/Friend_Finder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bryanrkelley/Friend_Finder/issues"
+  },
+  "homepage": "https://github.com/bryanrkelley/Friend_Finder#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mysql": "^2.16.0",
+    "nodemon": "^1.18.10",
+    "path": "^0.12.7"
+  }
+}
