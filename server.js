@@ -6,6 +6,8 @@ var PORT = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(express.static("public"));
+
 app.use(bodyParser.json({ type: 'application/*+json' }));
 
 //parse custom into buffer
